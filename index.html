@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YardSale: Tienda online</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <nav>
+        <img src="./Views/icons/icon_menu.svg" alt="menu" class="menu">
+        
+        <div class="navbar-left">
+            <img src="./Views/logos/logo_yard_sale.svg" alt="logo" class="logo">
+            <ul>
+                <li>
+                    <a href="">All</a>
+                </li>
+                <li>
+                    <a href="">Clothes</a>
+                </li>
+                <li>
+                    <a href="">Electronics</a>
+                </li>
+                <li>
+                    <a href="">Furnitures</a>
+                </li>
+                <li>
+                    <a href="">Toys</a>
+                </li>
+                <li>
+                    <a href="">Others</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="navbar-right">
+            <ul>
+                <li class="navbar-email">platzi@example.com</li>
+                <li class="navbar-shopping-cart">
+                    <img src="./Views/icons/icon_shopping_cart.svg" alt="shopping_cart">
+                    <div>
+                        2
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="desktop-menu inactive">
+            <ul>
+                <li>
+                    <a href="#" class="title">My orders</a>
+                </li>
+                <li>
+                    <a href="#" >My account</a>
+                </li>
+                <li>
+                    <a href="#" >Sign out</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu inactive">
+            <ul>
+                <li>
+                    <a href="#">CATEGORIES</a>
+                </li>
+                <li>
+                    <a href="#">ALL</a>
+                </li>
+                <li>
+                    <a href="#">CLOTHES</a>
+                </li>
+                <li>
+                    <a href="#">ELECTRONICS</a>
+                </li>
+                <li>
+                    <a href="#">FURNITURES</a>
+                </li>
+                <li>
+                    <a href="#">TOYS</a>
+                </li>
+                <li>
+                    <a href="#">OTHERS</a>
+                </li>
+            </ul>
+    
+            <ul>
+                <li>
+                    <a href="#">My orders</a>
+                </li>
+                <li>
+                    <a href="#">My account</a>
+                </li>
+            </ul>
+    
+            <ul>
+                <li>
+                    <a href="#" class="email">platzi@example.com</a>
+                </li>
+                <li>
+                    <a href="#" class="sign-out">Sign out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <aside id="shopping-card__container" class="inactive">
+        <div class="title-container">
+            <img src="./Views/icons/flechita.svg" alt="arrow">
+            <p class="title">My order</p>
+        </div>
+        
+        <div class="my-order-content">
+            
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/127016/pexels-photo-127016.jpeg" alt="">
+                </figure>
+                <p>Bike</p>
+                <p>$300</p>
+                <img src="./Views/icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/127016/pexels-photo-127016.jpeg" alt="">
+                </figure>
+                <p>Bike</p>
+                <p>$300</p>
+                <img src="./Views/icons/icon_close.png" alt="close">
+            </div>
+
+
+            <div class="shopping-cart">
+                <figure>
+                    <img src="https://images.pexels.com/photos/127016/pexels-photo-127016.jpeg" alt="">
+                </figure>
+                <p>Bike</p>
+                <p>$300</p>
+                <img src="./Views/icons/icon_close.png" alt="close">
+            </div>
+
+            <div class="order">
+                <p>
+                    <span>Total</span>
+                </p>
+                <p>$500.000</p>
+            </div>
+
+            <button class="primary-button ">
+                Checkout
+            </button>
+
+        </div>
+    </aside>
+
+    <aside id="product-detail" class="inactive">
+        <div class="product-detail-close">
+            <img src="./Views/icons/icon_close.png" alt="close">
+        </div>
+        
+        <img src="https://images.pexels.com/photos/127016/pexels-photo-127016.jpeg" alt="bike">
+        <div class="product-info">
+            <p>$35</p>
+            <p>Bike</p>
+            <p> With its functional and practical design, this bike also fulfills a decorative function, adding personality and a retro-vintage aesthetic to your house</p>
+            <button class="primary-button add-to-cart-button">
+                <img src="./Views/icons/bt_add_to_cart.svg" alt="add-to-cart">
+                Add to cart
+            </button>
+        </div>
+    </aside>
+
+    <section class="main-container">
+        <div class="cards-container">
+            <!--
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/127016/pexels-photo-127016.jpeg" alt="">
+                <div class="product-info">
+                    <div>
+                        <p>$120.000</p>
+                        <p>Bike</p>
+                    </div>
+                    
+                    <figure>
+                        <img src="./Views/icons/bt_add_to_cart.svg" alt="">
+                    </figure>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <script src="./assets/js/js.js"></script>
+</body>
+</html>
