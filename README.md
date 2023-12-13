@@ -1,4 +1,4 @@
-## Js_Practico
+## No only html and css
 Join the html_css_practico project to add js code to implement dynamism
 
 ## Tech Stack
