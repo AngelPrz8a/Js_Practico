@@ -1,4 +1,5 @@
 ## Js_Practico
+Join the html_css_practico project to add js code to implement dynamism
 
 ## Tech Stack
 Html
