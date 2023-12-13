@@ -6,9 +6,9 @@ Css
 JavaScript
 
 ## Screenshot
-![screenshot](https://github.com/AngelPrz8a/Js_Practico/blob/main/assets/images/screenshot_1.jpeg)
-![screenshot](https://github.com/AngelPrz8a/Js_Practico/blob/main/assets/images/screenshot_2.jpeg)
-![screenshot](https://github.com/AngelPrz8a/Js_Practico/blob/main/assets/images/screenshot_3.jpeg)
+![screenshot_1](https://github.com/AngelPrz8a/Platzi_Front_Js-Practico/blob/main/assets/images/screenshot_1.jpeg)
+![screenshot_2](https://github.com/AngelPrz8a/Platzi_Front_Js-Practico/blob/main/assets/images/screenshot_2.jpeg)
+![screenshot_3](https://github.com/AngelPrz8a/Platzi_Front_Js-Practico/blob/main/assets/images/screenshot_3.jpeg)
 
 ## Links
 
